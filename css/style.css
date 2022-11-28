@@ -246,11 +246,11 @@ h1, h2, h3, h4, h5,
 .color-white-opacity-5 {
   color: rgba(255, 255, 255, 0.5); }
 
-.btn.btn-outline-white {
+.btnn.btn-outline-white {
   border-color: #fff;
   background: transparent;
   color: #fff; }
-  .btn.btn-outline-white:hover {
+  .btnn.btn-outline-white:hover {
     background: #fff;
     border-color: #fff;
     color: #000; }
@@ -1141,7 +1141,7 @@ h1, h2, h3, h4, h5,
   min-height: 900px;
   background-size: cover; }
 
-.btn-md {
+.btnn-md {
   padding: 8px 20px; }
 
 .border-w-2 {
@@ -1205,7 +1205,7 @@ h1, h2, h3, h4, h5,
   .footer-suscribe-form .form-control:hover, .footer-suscribe-form .form-control:active, .footer-suscribe-form .form-control:focus {
     color: #000 !important; }
 
-.footer-suscribe-form .btn {
+.footer-suscribe-form .btnn {
   color: #fff; }
 
 .ftco-blocks-cover-1 .ftco-service-image-1 {
@@ -1248,7 +1248,7 @@ h1, h2, h3, h4, h5,
         .ftco-cover-1.overlay p a:hover {
           text-decoration: none; }
     .ftco-cover-1.overlay form .form-control,
-    .ftco-cover-1.overlay form .btn {
+    .ftco-cover-1.overlay form .btnn {
       height: 55px;
       border-radius: 4px; }
     .ftco-cover-1.overlay form .form-control {
@@ -1256,7 +1256,7 @@ h1, h2, h3, h4, h5,
       padding-right: 20px;
       border-color: transparent;
       margin-right: 10px; }
-    .ftco-cover-1.overlay form .btn {
+    .ftco-cover-1.overlay form .btnn {
       border-color: transparent; }
 
 .owl-all .owl-dots {
