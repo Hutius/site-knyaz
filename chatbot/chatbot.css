@@ -14,7 +14,7 @@
   width: 50px;
   height: 50px;
   border-radius: 25px;
-  background-color: #0fa515;
+  background-color: #606667;
   cursor: pointer;
   transition: background-color 0.15s ease-in-out;
 }
@@ -32,7 +32,7 @@
 }
 
 .chatbot__btn:hover {
-  background-color: #0d9412;
+  background-color: #606667;
 }
 
 /* chatbot__tooltip */
@@ -43,7 +43,7 @@
   transform: translateY(-50%);
   white-space: nowrap;
   color: #fff;
-  background: #0d9412;
+  background: #606667;
   padding: 5px 8px;
   border-radius: 4px;
   opacity: 0;
@@ -59,7 +59,7 @@
   position: absolute;
   content: '';
   border: 5px solid transparent;
-  border-left-color: #0d9412;
+  border-left-color: #606667;
   margin-top: -5px;
   right: -10px;
 }
@@ -95,7 +95,7 @@
 }
 
 .chatbot__title {
-  background-color: #0fa515;
+  background-color: #606667;
   color: #fff;
   padding: 1rem;
   display: flex;

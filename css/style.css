@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts-online.ru/fonts/multiround-pro');
 /* Base */
 html {
   overflow-x: hidden; }
@@ -229,7 +232,7 @@ a {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   font-weight: 300;
-  color: #364d59; }
+  color: #ffffff; }
 
 .border-2 {
   border-width: 2px; }
@@ -1582,9 +1585,7 @@ h1, h2, h3, h4, h5,
 
 
 
-    html {
-      background-color: #28505D;
-    }
+    
     
     .planePath {
       stroke: #D9DADA;
@@ -1610,3 +1611,37 @@ h1, h2, h3, h4, h5,
     .fil3 {
       fill: #AEAFB0;
     }
+
+    .scroll {
+      background-color: #474749;
+      color: #ffffff;
+      font-family: 'Multiround Pro', sans-serif;
+      font-weight: 900;
+      padding: 0;
+      margin: 0;   
+  }
+  html {
+      background-color: #131316;
+  }
+  
+  section {
+      display: grid;
+      place-items: center;
+      align-content: center;
+      min-height: 60vh;
+  }
+  
+  .hidden{
+     
+      filter: blur(5px);
+      transform: translateX(-100%);
+      transition: all 1s;
+  
+  }
+  
+  .show {
+      opacity: 1;
+      filter: blur(0);
+      transform: translateX(0);
+  }
+  
